@@ -1,15 +1,17 @@
-# webpack-template
+# jest-practice
 
-A simple template with Webpack, ESLint, & Prettier
+This project is from The Odin Project's JavaScript [curriculum](https://www.theodinproject.com/lessons/javascript-testing-practice).
 
-# usage
+A collection of exercises, powered by TDD & Jest!
 
-1. Run the configurator for ESLint
+# functions
 
-`npm init @eslint/config`
+`capitalize` will capitalize any string you throw at it!
 
-2. Configure `eslint-config-prettier`
+`reverseString`, well, reverses any string you throw at it!
 
-https://github.com/prettier/eslint-config-prettier#installation
+`calculator` accepts two numbers and an operation, and performs it!
 
-3. Get to work!
+`caesarCipher` accepts a string and shift, and encodes it! Supports positive, negative, and arbitrarily large shifts.
+
+`analyzeArray` takes an array of numbers and returns { average, min, max, length }
